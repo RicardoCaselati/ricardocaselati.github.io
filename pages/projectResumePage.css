@@ -1,0 +1,113 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.borderButton {
+    padding: var(--gutter-huge) 0;
+    border-bottom: 1px solid #141447;
+}
+
+.padding {
+    padding: 0px 9%;
+}
+
+.tit_sessao {
+    color: #141447;
+    font-size: 30px;
+}
+
+.paragrafo {
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4.2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #141447;
+
+    font-weight: 400;
+}
+
+.btn:hover{
+    border: 1px solid #141447;
+}
+
+/* Header */
+header {
+    background-color: #141447;
+}
+
+.navbar .collapse .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    font-size: 16.8px;
+}
+
+.navbar .collapse .active {
+    text-decoration: underline whitesmoke;
+}
+
+.navbar-brand {
+    background-image: url(../images/simbolo_rc.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 38px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/*sessão*/
+section.container {
+    height: 604px;
+}
+
+.foto_projeto {
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+/*Footer*/
+.footer {
+    background-color: #141447;
+}
+
+.txt {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.logo_footer img {
+    width: 30%;
+
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+#buttondiv {
+    background-color: none;
+    border: none;
+}
